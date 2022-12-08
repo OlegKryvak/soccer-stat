@@ -1,6 +1,7 @@
 import axiosInstance from "../index";
 
-export const getCometitions = () => {
-  const response = axiosInstance.get("/competitions");
+
+export const getCometitions  = async () => {
+  const response = await axiosInstance.get("/competitions");
   return response;
 };

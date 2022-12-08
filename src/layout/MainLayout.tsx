@@ -63,7 +63,7 @@ const MainLayout = ({ children }: Props) => {
           </button>
         </div>
       </header>
-      <main className="p-4 bg-beige dark:bg-blueviolet h-screen">
+      <main className="p-4 bg-beige dark:bg-blueviolet min-h-screen">
         {children}
       </main>
       <footer></footer>
